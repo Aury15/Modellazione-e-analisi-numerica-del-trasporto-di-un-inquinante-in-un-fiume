@@ -28,7 +28,7 @@ Il nucleo del progetto segue un rigoroso approccio analitico e computazionale di
 
 3. **Consistenza e Convergenza secondo Lax:** Viene dimostrata analiticamente la consistenza dello schema numerico rispetto alla PDE originale. Grazie al **Teorema di Equivalenza di Lax (Lax-Richtmyer)**, l'aver garantito la consistenza dello schema e la sua stabilità (sotto la condizione precedentemente ricavata) assicura matematicamente la *convergenza* della soluzione numerica a quella analitica.
 
-4. **Risoluzione del Problema Reale (Dirichlet-Neumann):** Infine, la condizione di stabilità critica ricavata nel caso periodico viene ereditata e applicata per risolvere il problema fisico reale su un dominio limitato. Questo scenario finale prevede l'immissione costante di inquinante dall'estremo sinistro attraverso una condizione di **Dirichlet** ($$u(0,t)=1$$) e il deflusso libero all'estremo destro modellato con una condizione di **Neumann** ($$u_x(L,t)=0$$).
+4. **Risoluzione del Problema Reale (Dirichlet-Neumann):** Infine, la condizione di stabilità critica ricavata nel caso periodico viene utilizzata per risolvere il problema fisico originario. Questo scenario finale prevede l'immissione costante di inquinante dall'estremo sinistro attraverso una condizione di **Dirichlet** ($$u(0,t)=1$$) e il deflusso libero all'estremo destro modellato con una condizione di **Neumann** ($$u_x(L,t)=0$$).
 
 ---
 
@@ -41,11 +41,3 @@ Il nucleo del progetto segue un rigoroso approccio analitico e computazionale di
 
 ---
 
-## 🚀 Come Iniziare
-
-### Prerequisiti
-
-Il progetto richiede Python 3 e l'ambiente Jupyter. Assicurati di installare tutte le dipendenze necessarie:
-
-```bash
-pip install -r requirements.txt
