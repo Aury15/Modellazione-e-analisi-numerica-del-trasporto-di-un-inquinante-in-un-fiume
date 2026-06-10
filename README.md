@@ -34,8 +34,8 @@ Il nucleo del progetto segue un rigoroso approccio analitico e computazionale di
 
 ## 📁 Struttura della Repository
 
-* `notebooks/`: Contiene il Jupyter Notebook (`.ipynb`) con l'implementazione interattiva del solutore e la generazione dei grafici.
-* `report/`: Il report tecnico dettagliato scritto in LaTeX (`UltimaCalcolo.pdf`).
+* `notebook/`: Contiene il Jupyter Notebook (`.ipynb`) con l'implementazione interattiva del solutore e la generazione dei grafici.
+* `report/`: Il report tecnico dettagliato scritto in LaTeX.
 * `presentation/`: Le slide utilizzate per la discussione orale dell'esame.
 * `img/`: Cartella contenente i grafici delle simulazioni, dei test di stabilità e dell'analisi d'errore.
 
