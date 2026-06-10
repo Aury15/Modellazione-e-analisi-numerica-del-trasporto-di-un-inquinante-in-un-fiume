@@ -1,4 +1,4 @@
-# Numerical Modeling of 1D Advection-Diffusion Equation
+# Modellazione, simulazione e analisi numerica del trasporto di un inquinante in un fiume.
 
 Questo repository contiene il progetto finale sviluppato per il corso di **Calcolo Scientifico** presso la *Sapienza Università di Roma*. Il lavoro si concentra sulla modellazione, simulazione e analisi numerica del trasporto e della diffusione di un inquinante all'interno di un corso d'acqua unidimensionale.
 
