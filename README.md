@@ -3,9 +3,9 @@
 Questo repository contiene il progetto finale sviluppato per il corso di **Calcolo Scientifico** presso la *Sapienza Università di Roma*. Il lavoro si concentra sulla modellazione, simulazione e analisi numerica del trasporto e della diffusione di un inquinante all'interno di un corso d'acqua unidimensionale.
 
 ## 👥 Autori
-* **Aurora Di Giovanna**
-* **Eleonora De Cicco**
-* **Giada Manfredi**
+* **Aurora Di Giovanna (https://github.com/Aury15)**
+* **Eleonora De Cicco (https://github.com/EleDeCicco)**
+* **Giada Manfredi (https://github.com/Giada-04)**
 
 ---
 
