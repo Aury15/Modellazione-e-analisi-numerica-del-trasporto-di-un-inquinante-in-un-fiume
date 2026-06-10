@@ -5,7 +5,7 @@ Questo repository contiene il progetto finale sviluppato per il corso di **Calco
 
 ## 📝 Descrizione del Progetto
 
-Il fenomeno fisico dell'evoluzione della concentrazione di inquinante $u(x,t)$ è modellato a partire dalla legge di conservazione della massa[cite: 10, 42], considerando due contributi principali:
+Il fenomeno fisico dell'evoluzione della concentrazione di inquinante $u(x,t)$ è modellato a partire dalla legge di conservazione della massa, considerando due contributi principali:
 1.**Avvezione (Trasporto):** dovuto alla corrente del fiume, con velocità costante $a = 1 \, m/s$.
 2.**Diffusione:** governata dalla legge di Fick con un coefficiente di diffusione $\mu > 0$.
 
