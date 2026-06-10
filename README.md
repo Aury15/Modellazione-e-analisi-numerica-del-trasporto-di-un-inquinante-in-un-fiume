@@ -6,8 +6,10 @@ Questo repository contiene il progetto finale sviluppato per il corso di **Calco
 ## 📝 Descrizione del Progetto
 
 Il fenomeno fisico dell'evoluzione della concentrazione di inquinante $u(x,t)$ è modellato a partire dalla legge di conservazione della massa, considerando due contributi principali:
-1.**Avvezione (Trasporto):** dovuto alla corrente del fiume, con velocità costante $a = 1 \, m/s$.
-2.**Diffusione:** governata dalla legge di Fick con un coefficiente di diffusione $\mu > 0$.
+
+1.**Avvezione (Trasporto):** dovuto alla corrente del fiume, con velocità costante $$a = 1 \, m/s$$.
+
+2.**Diffusione:** governata dalla legge di Fick con un coefficiente di diffusione $c\mu > 0$$.
 
 L'equazione differenziale parziale (PDE) risultante è:
 
@@ -15,7 +17,7 @@ $$u_t + a u_x = \mu u_{xx}$$
 
 ### Metodologia Numerica
 * **Discretizzazione Spaziale:** Metodo delle Linee (MoL) con **Differenze Finite Centrate** (accuratezza del secondo ordine: $\mathcal{O}(h^2)$).
-* **Discretizzazione Temporale:** **Eulero Esplicito** (accuratezza del primo ordine: $\mathcal{O}(\Delta t)$).
+* **Discretizzazione Temporale:** **Eulero Esplicito** (accuratezza del primo ordine: $$\mathcal{O}(\Delta t)$$).
 * **Analisi di Stabilità:** Condotta tramite l'analisi di **Von Neumann** nel caso ausiliario con condizioni periodiche, ricavando la condizione restrittiva sul passo temporale:
 
 $$\Delta t \le \min \left( 2\mu, \frac{h^2}{2\mu} \right)$$
